@@ -1,0 +1,50 @@
+.nosotros {
+  display: none;
+}
+.menu {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav {
+  width: 65%;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.input-menu {
+  border-radius: 30px;
+}
+
+// MediaQuery
+
+@media (min-width: 768px) {
+  .nosotros {
+    display: block;
+  }
+  .nav {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+}
