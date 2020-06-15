@@ -1,0 +1,12 @@
+.listado-izquierdo{
+    display: none;
+}
+
+
+// mediaquery
+
+@media (min-width: 768px) {
+    .listado-izquierdo {
+        display: block;
+    }
+}

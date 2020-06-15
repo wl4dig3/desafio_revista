@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: monospace; }
+
 .nosotros {
   display: none; }
 
@@ -222,5 +230,11 @@
 
   .col-xl-1 {
     grid-column: span 1; } }
+.listado-izquierdo {
+  display: none; }
+
+@media (min-width: 768px) {
+  .listado-izquierdo {
+    display: block; } }
 
 /*# sourceMappingURL=main.css.map */
