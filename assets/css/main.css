@@ -1,240 +1,60 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: monospace; }
-
-.nosotros {
-  display: none; }
-
-.menu {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px; }
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase; }
-
-.nav {
-  width: 65%; }
-
-.nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%; }
-
-.nav ul li a {
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.input-menu {
-  border-radius: 30px; }
-
-@media (min-width: 768px) {
-  .nosotros {
-    display: block; }
-
-  .nav {
-    width: 25%; } }
-.row {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: 10px; }
-
-.col-xs-12 {
-  grid-column: span 12; }
-
-.col-xs-11 {
-  grid-column: span 11; }
-
-.col-xs-10 {
-  grid-column: span 10; }
-
-.col-xs-9 {
-  grid-column: span 9; }
-
-.col-xs-8 {
-  grid-column: span 8; }
-
-.col-xs-7 {
-  grid-column: span 7; }
-
-.col-xs-6 {
-  grid-column: span 6; }
-
-.col-xs-5 {
-  grid-column: span 5; }
-
-.col-xs-4 {
-  grid-column: span 4; }
-
-.col-xs-3 {
-  grid-column: span 3; }
-
-.col-xs-2 {
-  grid-column: span 2; }
-
-.col-xs-1 {
-  grid-column: span 1; }
-
-@media (min-width: 576px) {
-  .col-sm-12 {
-    grid-column: span 12; }
-
-  .col-sm-11 {
-    grid-column: span 11; }
-
-  .col-sm-10 {
-    grid-column: span 10; }
-
-  .col-sm-9 {
-    grid-column: span 9; }
-
-  .col-sm-8 {
-    grid-column: span 8; }
-
-  .col-sm-7 {
-    grid-column: span 7; }
-
-  .col-sm-6 {
-    grid-column: span 6; }
-
-  .col-sm-5 {
-    grid-column: span 5; }
-
-  .col-sm-4 {
-    grid-column: span 4; }
-
-  .col-sm-3 {
-    grid-column: span 3; }
-
-  .col-sm-2 {
-    grid-column: span 2; }
-
-  .col-sm-1 {
-    grid-column: span 1; } }
-@media (min-width: 768px) {
-  .col-md-12 {
-    grid-column: span 12; }
-
-  .col-md-11 {
-    grid-column: span 11; }
-
-  .col-md-10 {
-    grid-column: span 10; }
-
-  .col-md-9 {
-    grid-column: span 9; }
-
-  .col-md-8 {
-    grid-column: span 8; }
-
-  .col-md-7 {
-    grid-column: span 7; }
-
-  .col-md-6 {
-    grid-column: span 6; }
-
-  .col-md-5 {
-    grid-column: span 5; }
-
-  .col-md-4 {
-    grid-column: span 4; }
-
-  .col-md-3 {
-    grid-column: span 3; }
-
-  .col-md-2 {
-    grid-column: span 2; }
-
-  .col-md-1 {
-    grid-column: span 1; } }
-@media (min-width: 992px) {
-  .col-lg-12 {
-    grid-column: span 12; }
-
-  .col-lg-11 {
-    grid-column: span 11; }
-
-  .col-lg-10 {
-    grid-column: span 10; }
-
-  .col-lg-9 {
-    grid-column: span 9; }
-
-  .col-lg-8 {
-    grid-column: span 8; }
-
-  .col-lg-7 {
-    grid-column: span 7; }
-
-  .col-lg-6 {
-    grid-column: span 6; }
-
-  .col-lg-5 {
-    grid-column: span 5; }
-
-  .col-lg-4 {
-    grid-column: span 4; }
-
-  .col-lg-3 {
-    grid-column: span 3; }
-
-  .col-lg-2 {
-    grid-column: span 2; }
-
-  .col-lg-1 {
-    grid-column: span 1; } }
-@media (min-width: 1200px) {
-  .col-xl-12 {
-    grid-column: span 12; }
-
-  .col-xl-11 {
-    grid-column: span 11; }
-
-  .col-xl-10 {
-    grid-column: span 10; }
-
-  .col-xl-9 {
-    grid-column: span 9; }
-
-  .col-xl-8 {
-    grid-column: span 8; }
-
-  .col-xl-7 {
-    grid-column: span 7; }
-
-  .col-xl-6 {
-    grid-column: span 6; }
-
-  .col-xl-5 {
-    grid-column: span 5; }
-
-  .col-xl-4 {
-    grid-column: span 4; }
-
-  .col-xl-3 {
-    grid-column: span 3; }
-
-  .col-xl-2 {
-    grid-column: span 2; }
-
-  .col-xl-1 {
-    grid-column: span 1; } }
-.listado-izquierdo {
-  display: none; }
-
-@media (min-width: 768px) {
-  .listado-izquierdo {
-    display: block; } }
-
-/*# sourceMappingURL=main.css.map */
+/*
+Error: File to import not found or unreadable: layout/section-main.
+        on line 16 of assets/sass/main.scss
+
+11: // Layout
+12: @import 'layout/grid';
+13: @import 'layout/menu';
+14: @import 'layout/contenido';
+15: @import 'layout/aside';
+16: @import 'layout/section-main';
+17: @import 'layout/newsletter';
+18: @import 'layout/footer';
+
+Backtrace:
+assets/sass/main.scss:16
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: layout/section-main.\A         on line 16 of assets/sass/main.scss\A \A 11: // Layout\A 12: @import 'layout/grid';\A 13: @import 'layout/menu';\A 14: @import 'layout/contenido';\A 15: @import 'layout/aside';\A 16: @import 'layout/section-main';\A 17: @import 'layout/newsletter';\A 18: @import 'layout/footer';"; }

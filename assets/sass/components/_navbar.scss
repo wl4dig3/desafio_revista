@@ -1,14 +1,6 @@
 .nosotros {
   display: none;
 }
-.menu {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
 
 .logo {
   font-size: 24px;
@@ -44,7 +36,4 @@
   .nav {
     width: 25%;
   }
-}
-
-@media (min-width: 768px) {
 }
